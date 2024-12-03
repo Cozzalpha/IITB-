@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0;
+    color: #4a2b17;
+}
+
+a {
+    text-decoration: none;
+    color: #b92b27;
+}
+
+a:hover {
+    color: #d46850;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ffba5a, #ff9b50);
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a2b17;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Material Cards */
+.container {
+    padding: 20px;
+}
+
+.material-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.material-card {
+    background-color: #fffaf3;
+    width: 200px;
+    border: 1px solid #c7922f;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.material-card img {
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid #c7922f;
+    margin-bottom: 10px;
+}
+
+.material-card h3 {
+    color: #b92b27;
+    margin: 10px 0;
+}
+
+.material-card a {
+    color: #b92b27;
+}
+
+/* Footer */
+footer {
+    background-color: #4a2b17;
+    color: #fffaf3;
+    text-align: center;
+    padding: 15px;
+}

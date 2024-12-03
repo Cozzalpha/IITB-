@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Cotton",
+        "image": "cotton.jpg",
+        "price": "₹250 per kg",
+        "description": "High quality cotton material suitable for fabric making and crafting.",
+        "vendor": "Vendor A",
+        "quantity": "500 kg",
+        "category": "Textile"
+    },
+    {
+        "id": 2,
+        "name": "Wood",
+        "image": "wood.jpg",
+        "price": "₹350 per cubic meter",
+        "description": "Premium hardwood, ideal for furniture making and construction.",
+        "vendor": "Vendor B",
+        "quantity": "300 cubic meters",
+        "category": "Construction"
+    },
+    {
+        "id": 3,
+        "name": "Clay",
+        "image": "clay.jpg",
+        "price": "₹100 per kg",
+        "description": "Fine clay for pottery and sculpting.",
+        "vendor": "Vendor C",
+        "quantity": "200 kg",
+        "category": "Crafting"
+    }
+]

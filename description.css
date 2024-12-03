@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0;
+    color: #4a2b17;
+}
+
+a {
+    text-decoration: none;
+    color: #b92b27;
+}
+
+a:hover {
+    color: #d46850;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ffba5a, #ff9b50);
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a2b17;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Material Description */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+#material-image {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#material-name {
+    font-size: 28px;
+    color: #b92b27;
+}
+
+footer {
+    background-color: #4a2b17;
+    color: #fffaf3;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0; /* Sandstone background */
+    color: #4a2b17; /* Earthy brown for text */
+}
+
+a {
+    text-decoration: none;
+    color: #b92b27; /* Rajasthani red for links */
+}
+
+a:hover {
+    color: #d46850;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ffba5a, #ff9b50);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a2b17;
+    text-shadow: 1px 1px #ffd194;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a2b17;
+}
+
+/* Login Form */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fffaf3; /* Creamy white background */
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h2 {
+    color: #b92b27;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #4a2b17;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c7922f;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #4a2b17;
+}
+
+input:focus {
+    outline: none;
+    border-color: #b92b27;
+    box-shadow: 0 0 5px rgba(185, 43, 39, 0.5);
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #b92b27; /* Rajasthani red */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #4a2b17;
+    color: #fffaf3;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
